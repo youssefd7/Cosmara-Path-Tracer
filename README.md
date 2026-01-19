@@ -26,7 +26,8 @@ Download the CosmaraPT folder, and run runrender.py, answer the questions:
 
 # Building a Scene
 
-In this renderer the scene is built through the SceneRender.h file, which has a sceneLayout function, this is where you can script what you can choose to render.
+In this renderer the scene is built through the SceneRender.h file, which has a sceneLayout function, in this function you can add objects to the scene, create materials with or without textures, apply them to primitives and position them. For additional transforms, visit scenetools.h, to edit some parameters such as the transform of the model within the scene. 
+This project is focused on the path tracing pipeline/logic and architecture, and there isn't user customisability or scene building without editing the code.
 
 
 # Features/Highlights
